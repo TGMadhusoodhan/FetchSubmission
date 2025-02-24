@@ -24,13 +24,25 @@ This app also provides with alternating row colors for a clean UI and better rea
 It contains 3 major files
 1. FetchViewModel.kt
     - Fetches data directly using ***Retrofit API***
-    - Stores the data retrived in a live data and sends it to the MainActivity
+    - Stores retrieved data in LiveData and sends it to MainActivity.
 2. MainActivity.kt
     - Retrives livedata from FetchViewModel.kt
     - Contains RecyclerView adapter
-    - Provides a cleaner UI
+    - Dynamically updates the UI
     - Contains a sort button to sort it in ascending and descending order
     - Provides different color for alternating rows for better readablity
 3. SplashScreen.kt
-    - Provides a SplashScreen for 2 sec before the app starts.
-    - improves presentation 
+    - Displays a splash screen for 2 seconds before the app starts.
+    - Improves the presentation and user experience. 
+##Future Improvements
+* Search functionality to find specific items.
+* Case-insensitive sorting for better organization.
+* Auto-filling NULL values instead of filtering them out.
+* Admin & User Login System:
+  - Admin: Can edit and view items.
+  - User: Can only view items.
+* Enhanced UI with a more customizable user experience
+
+## ScreenShots of the app
+![Screenshot of Splash Screen of the app.](https://github.com/TGMadhusoodhan/FetchSubmission/blob/main/AppSS1.jpg)
+![Screenshot of data display of the app.](https://github.com/TGMadhusoodhan/FetchSubmission/blob/main/AppSS2.jpg)
