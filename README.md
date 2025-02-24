@@ -20,7 +20,7 @@ This app also provides with alternating row colors for a clean UI and better rea
 3. Build and run the ampplication using an emulator or a physical device
 > [!TIP]
 > You can also download the app directly just by installing fetchAPK.apk on ur emulator or your physical device directly.
-##Code Structure
+## Code Structure
 It contains 3 major files
 1. FetchViewModel.kt
     - Fetches data directly using ***Retrofit API***
