@@ -4,7 +4,7 @@ The FetchCoding app is an android application that retrives a list of items from
 This app also provides with alternating row colors for a clean UI and better readablity 
 > [!NOTE]
 > This is app is a submission for a app-coding round posted by ***Fetch***.
-> The FetchCoding app adopts a UI theme based on the official Fetch website (<a> https://fetch.com/ </a>), ensuring a consistent look and feel that reflects Fetch's design principles.
+> This FetchCoding app adopts a UI theme based on the official Fetch website (<a> https://fetch.com/ </a>), ensuring a consistent look and feel that reflects Fetch's design principles.
 ## Features
 * Displays a list of items retrived from  <a> https://fetch-hiring.s3.amazonaws.com/hiring.json </a>
 * Displays all the items grouped by "listId"
