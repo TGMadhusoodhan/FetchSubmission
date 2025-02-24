@@ -22,16 +22,16 @@ This app also provides with alternating row colors for a clean UI and better rea
 > You can also download the app, just by installing fetchAPK.apk on ur emulator or your physical device directly.
 ## Code Structure
 It contains 3 major files
-1. FetchViewModel.kt
+1. **FetchViewModel.kt**
     - Fetches data directly using ***Retrofit API***
     - Stores retrieved data in LiveData and sends it to MainActivity.
-2. MainActivity.kt
+2. **MainActivity.kt**
     - Retrives livedata from FetchViewModel.kt
     - Contains RecyclerView adapter
     - Dynamically updates the UI
     - Contains a sort button to sort it in ascending and descending order
     - Provides different color for alternating rows for better readablity
-3. SplashScreen.kt
+3. **SplashScreen.kt**
     - Displays a splash screen for 2 seconds before the app starts.
     - Improves the presentation and user experience. 
 ##Future Improvements
