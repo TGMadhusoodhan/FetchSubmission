@@ -20,7 +20,7 @@ This app also provides with alternating row colors for a clean UI and better rea
 2. Extract and open the project in Android Studio
 3. Build and run the ampplication using an emulator or a physical device
 > [!TIP]
-> You can also download the app, just by installing fetchAPK.apk on ur emulator or your physical device directly.
+> You can also run the app directly, just by downloading and installing fetchAPK.apk on your emulator or physical device.
 ## Code Structure
 It contains 3 major files
 1. **FetchViewModel.kt**
